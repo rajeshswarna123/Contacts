@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AddressBook.Core.Common\AddressBook.Core.Common.csproj" />
+    <ProjectReference Include="..\AddressBook.Data.Contracts\AddressBook.Data.Contracts.csproj" />
+    <ProjectReference Include="..\AddressBook.Domain.Contracts\AddressBook.Domain.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
